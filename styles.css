@@ -1,0 +1,189 @@
+
+/* GLOBAL STYLES - available throughout website */
+body {
+	background-color: #f9f9f9;
+  font-family: Quicksand, sans-serif;
+	margin: 0;
+}
+
+h1, h2 {
+	font-family: Oswald, sans-serif;
+}
+
+h3 {
+	text-transform: capitalize;
+	font-size: 1.5em;
+	color: #001833;
+	font-weight: 800;
+}
+
+nav,header,footer {
+  display: block
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+}
+
+/* Nav Elements */
+nav {
+  width: 100%;
+  position: fixed;
+	/* padding: 0; */
+}
+
+nav ul {
+  background-color: #eee;
+  overflow: hidden;
+  margin: 0;
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+ul.topnav li {
+  list-style: none;
+  float: left;
+  padding: 2%;
+  text-transform: capitalize;
+
+}
+
+ul.topnav li a {
+  color: #666;
+}
+
+ul.topnav li a:hover {
+  color:#011833;
+}
+
+/* header element */
+header {
+	background: linear-gradient( rgba(224, 204, 200, 1.0), rgba(224, 204, 200, 0.5)), /* bottom, image */
+	url(beach.jpeg);
+	background-size: cover;
+	background-position: center top;
+	width: 100%;
+}
+
+.title {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 5%;
+}
+
+.title h1 {
+	font-size: 4em;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+	line-height: 1.5em;
+}
+
+.title h2 {
+	font-size: 2em;
+	text-align: center;
+	color: #fff;
+	font-weight: 300;
+	text-transform: capitalize;
+	letter-spacing: 0.3em;
+}
+
+.intro {
+	max-width: 960px;
+	margin: 0 auto;
+	animation-delay: 2s;
+}
+
+.intro h3 {
+	color: #34495E;
+	font-size: 2em;
+	letter-spacing: 0.1em;
+	font-weight: 600;
+}
+
+.about {
+	padding: 5%;
+}
+
+.about p {
+	font-style: normal;
+	font-weight: 300;
+	line-height: 1.8;
+	color: #616569;
+	letter-spacing: .03em;
+	/* margin: 10px auto; */
+	font-size: 1.5em;
+	padding: 2% 0;
+}
+
+.contact {
+	width: 100%;
+	background-color: #011833;
+	padding: 5% 0;
+	margin-top: 5%;
+	/* clear: both; */
+}
+
+.contact-content {
+	max-width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.contact-content h4 {
+	font-size: 2em;
+	padding: 1% 0;
+	color: #fff;
+	font-weight: 600;
+	letter-spacing: 0.04em;
+}
+
+.contact-content a {
+	color: #E0CCC8;
+	text-decoration: none;
+}
+
+footer {
+ background-color:#E0CCC8;
+ color:#fff;
+ padding: 2% 0;
+ width: 100%;
+ /* clear:both; */
+ height: 100px;
+}
+
+.footer-content {
+ max-width:960px;
+ /* padding:2% 0; */
+ margin:0 auto;
+ font-style: normal;
+ font-weight: 300;
+ line-height: 1.4;
+ color: #fff;
+ letter-spacing: .03em;
+ /* font-size:1em; */
+}
+
+.social {
+ float:right;
+}
+
+.social li {
+ display:inline;
+}
+
+.social li a {
+ color:#fff;
+ padding:0.2em;
+ font-size:1.8em;
+ font-weight:600;
+}
+
+.social li a:hover {
+ color: #011833;
+}
