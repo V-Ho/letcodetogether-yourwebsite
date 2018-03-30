@@ -18,7 +18,7 @@ h3 {
 }
 
 nav,header,footer {
-  display: block
+  display: block;
 }
 
 a {
@@ -49,7 +49,6 @@ ul.topnav li {
   float: left;
   padding: 2%;
   text-transform: capitalize;
-
 }
 
 ul.topnav li a {
@@ -60,7 +59,7 @@ ul.topnav li a:hover {
   color:#011833;
 }
 
-/* header element */
+/* Header Section */
 header {
 	background: linear-gradient( rgba(224, 204, 200, 1.0), rgba(224, 204, 200, 0.5)), /* bottom, image */
 	url(beach.jpeg);
@@ -69,6 +68,7 @@ header {
 	width: 100%;
 }
 
+/* Introduction Text Section */
 .title {
 	max-width: 960px;
 	margin: 0 auto;
@@ -121,12 +121,12 @@ header {
 	padding: 2% 0;
 }
 
+/* Contact Section */
 .contact {
 	width: 100%;
 	background-color: #011833;
 	padding: 5% 0;
 	margin-top: 5%;
-	/* clear: both; */
 }
 
 .contact-content {
@@ -148,25 +148,23 @@ header {
 	text-decoration: none;
 }
 
+/* Footer Section */
 footer {
  background-color:#E0CCC8;
  color:#fff;
  padding: 2% 0;
  width: 100%;
- /* clear:both; */
  height: 100px;
 }
 
 .footer-content {
  max-width:960px;
- /* padding:2% 0; */
  margin:0 auto;
  font-style: normal;
  font-weight: 300;
  line-height: 1.4;
  color: #fff;
  letter-spacing: .03em;
- /* font-size:1em; */
 }
 
 .social {
