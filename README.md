@@ -1,6 +1,4 @@
 # letcodetogether-yourwebsite
-
-# letscodetogether-html
 ## Part 2 of the HTML & CSS Workshop 
 ### Let's Code Together - May 26, 2018
 
